@@ -1,6 +1,6 @@
 {
   "name": "Deogracias",
-  "author": "Takahiro Yoshioka (Shantti_Y)",
+  "author": "katsuragi710ka",
   "license": "MIT",
   "main": "http://localhost:9000",
   "dependencies": {
@@ -68,8 +68,7 @@
     "dev": "webpack-dev-server --config ./config/development/webpack.config.js",
     "eslint": "eslint 'src/**' -c .eslintrc",
     "eslint-fix": "eslint 'src/**' -c .eslintrc --fix",
-    "prod-build": "webpack --progress --config ./config/production/webpack.config.js",
-    "prod-start": "node ./dist/server.js",
+    "build": "webpack --progress --config ./config/production/webpack.config.js",
     "start": "nw"
   }
 }
