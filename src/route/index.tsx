@@ -3,8 +3,8 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import history from '@appUtil/history';
 
-import MainLayout from '@appLayout/Main/index';
-import ViewerLayout from '@appLayout/Viewer/index';
+import MainLayout from '@appLayout/Main';
+import ViewerLayout from '@appLayout/Viewer';
 
 import Dashboard, { DashboardDrawerItem, DashboardHeaderItem } from '@appRoute/dashboard';
 import MangasNew, { MangaEditorDrawerItem as MangaEditorDrawerItemOnNew, NewMangaHeaderItem } from '@appRoute/mangas/new';
