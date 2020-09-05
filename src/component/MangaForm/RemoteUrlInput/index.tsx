@@ -71,7 +71,7 @@ const RemoteUrlInput: FC<RemoteUrlInputProps> = props => {
 
 	return (
 		<div>
-			<h3>LocalImageSetting</h3>
+			<h3>Url insertion area</h3>
 			{/* <Accordion activeIndex={settingMode} onTabChange={event => setSettingMode(event.index)}> */}
 				{/* <AccordionTab header="Type Urls Yourself"> */}
 					<div>

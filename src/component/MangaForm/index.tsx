@@ -43,7 +43,7 @@ const MangaForm: FC<ComponentProps> = props => {
 		setImageUrls(newImagePaths);
 	};
 
-	const validateImageUrlExtension = (imageUrl: string) => RegExp(/.+[jpg|gif|png]$/).test(imageUrl);
+	const validateImageUrlExtension = (imageUrl: string) => RegExp(/.+[jpg|gif|png|JPG|GIF|PNG]$/).test(imageUrl);
 
 	const normalizeImageUrl = (imageUrl: string, imageLocation: ImageLocation) => {
 		switch (imageLocation) {
